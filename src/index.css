@@ -1,0 +1,6 @@
+@import "leaflet/dist/leaflet.css";
+
+/* ADD THIS TO MAKE MARKERS GLIDE SMOOTHLY AS GPS UPDATES */
+.custom-name-marker {
+  transition: transform 1.2s linear !important;
+}
